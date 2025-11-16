@@ -25,6 +25,7 @@ header{
 }
 
 nav {
+    top: o;
     position: fixed;
     right: 20px;
     background-color: black;
