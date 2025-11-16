@@ -25,7 +25,7 @@ header{
 }
 
 nav {
-    position: absolute;
+    position: fixed;
     right: 20px;
     background-color: black;
     border-radius: 8px;
@@ -100,7 +100,6 @@ nav a {
     text-decoration: underline;
 }
 
-
 footer {
     text-align: center;
     line-height: 100px;
@@ -108,4 +107,16 @@ footer {
     background-color: rgb(0, 174, 255);
     height: 100px;
     border-radius: 20px;
+}
+
+@media (min-width: 701px) and (max-width: 2000px) {
+    nav {
+        width: 50%;
+    }
+}
+
+@media (max-width: 700px) {
+    nav {
+        width: 100%;
+    }
 }
