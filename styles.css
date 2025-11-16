@@ -1,0 +1,111 @@
+body {
+    background-color: #d9d9d9;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    color:black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e88e5;
+    height: 150px;
+}
+
+.header-intro h1 {
+    margin: 0;
+}
+
+.header-intro p {
+    margin: 6px;
+    font-style: italic;
+}
+
+nav {
+    position: absolute;
+    right: 20px;
+    background-color: black;
+    border-radius: 8px;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+.cuadro {
+    max-width: 900px;
+    background-color: white;
+    border: 4px;
+    border-color: black;
+    border-style: outset;
+    border-radius: 10px;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.cuadro p {
+    max-width: 600px;
+    margin-top: 10px;
+    line-height: 1.5;
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+
+.container{
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+}
+.image{
+    display: block;
+    width: 100%;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(88, 88, 88, 0.527);
+    color: antiquewhite;
+    transition: 0.5s ease;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    opacity:0;
+}
+.container:hover .overlay {
+    opacity: 1;
+}
+.perfil {
+    display: flex; 
+    flex-direction: column;          
+    gap: 10px;    
+}
+        
+.barra p {
+    margin: 0;
+}
+
+.cuadro h3 {
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+
+footer {
+    text-align: center;
+    line-height: 100px;
+    font-size: 16px;
+    background-color: rgb(0, 174, 255);
+    height: 100px;
+    border-radius: 20px;
+}
