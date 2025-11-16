@@ -57,42 +57,22 @@ nav a {
     font-size: 0.9rem;
     text-align: justify;
 }
-
-
-.container{
-    position: relative;
-    width: 50%;
-    max-width: 300px;
-}
-.image{
-    display: block;
+     
+.barra {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
 }
-.overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(88, 88, 88, 0.527);
-    color: antiquewhite;
-    transition: 0.5s ease;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
-    opacity:0;
-}
-.container:hover .overlay {
-    opacity: 1;
-}
-.perfil {
-    display: flex; 
-    flex-direction: column;          
-    gap: 10px;    
-}
-        
+
 .barra p {
     margin: 0;
+}
+
+.barra progress {
+    width: 60%;
 }
 
 .cuadro h3 {
